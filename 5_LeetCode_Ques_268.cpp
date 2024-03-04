@@ -4,6 +4,7 @@
 
     // 1. Using C++
     
+    // SUm Approach 
     int missingNumber(vector<int>& nums) 
     {
         int n = nums.size();  // actual size of array
@@ -22,6 +23,30 @@
         return ans;
         // return (actualSum - numsSum); 
     }
+
+
+    // Xor Approaxh 
+    int missingNumber(vector<int>& nums) 
+    {
+       int ans = 0;
+
+       // Xor all value of array
+       for(int i=0;i<nums.size();i++)
+       {
+           ans = ans ^ nums[i];
+       }
+
+       // Xor with all range items [0,n]
+       for(int i=0;i<=nums.size();i++)
+       {
+           ans = ans ^ i;
+       }
+
+       return ans;
+    }
+
+
+
 
 
     // 2. Using Java 
