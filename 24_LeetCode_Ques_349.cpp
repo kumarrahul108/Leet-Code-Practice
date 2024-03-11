@@ -1,4 +1,4 @@
-// Leet-Code : Q.No => 33 => Search in Rotated Sorted ARray -> 9th March 2024 
+// Leet-Code : Q.No => 349 => Intersection of 2 Arrays -> 10th March 2024 
 
 
     // mapping concept (Hashing) 
