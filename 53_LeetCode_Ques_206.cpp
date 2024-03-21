@@ -1,7 +1,7 @@
 // Leet-Code : Q.No => 206 => Reverse Linked List  => 21st March 2024 
 
 
-    // 
+    //  recurssion + 3 - pointer approach  (prev , curr ,, next)
 
 
     // 1.******* Using C++ *******
